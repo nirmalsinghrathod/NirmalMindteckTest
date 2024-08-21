@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE87FAC32C7447B8000F9041 /* MindteckTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87FAC22C7447B8000F9041 /* MindteckTestApp.swift */; };
+		BE87FAC52C7447B8000F9041 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87FAC42C7447B8000F9041 /* ContentView.swift */; };
+		BE87FAC72C7447B9000F9041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE87FAC62C7447B9000F9041 /* Assets.xcassets */; };
+		BE87FACA2C7447B9000F9041 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE87FAC92C7447B9000F9041 /* Preview Assets.xcassets */; };
+		BE87FAD12C7449F2000F9041 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87FAD02C7449F2000F9041 /* BannerView.swift */; };
+		BE87FAD62C746143000F9041 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87FAD52C746143000F9041 /* LoadingView.swift */; };
+		BE87FAD92C7464A8000F9041 /* ImageLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87FAD82C7464A8000F9041 /* ImageLoadingView.swift */; };
+		BE87FADB2C746501000F9041 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87FADA2C746501000F9041 /* PlaceDetailView.swift */; };
+		BE87FAE12C747333000F9041 /* Japan.json in Resources */ = {isa = PBXBuildFile; fileRef = BE87FADD2C747332000F9041 /* Japan.json */; };
+		BE87FAE22C747333000F9041 /* India.json in Resources */ = {isa = PBXBuildFile; fileRef = BE87FADE2C747332000F9041 /* India.json */; };
+		BE87FAE32C747333000F9041 /* Indonesia.json in Resources */ = {isa = PBXBuildFile; fileRef = BE87FADF2C747332000F9041 /* Indonesia.json */; };
+		BE87FAE42C747333000F9041 /* New Zealand.json in Resources */ = {isa = PBXBuildFile; fileRef = BE87FAE02C747332000F9041 /* New Zealand.json */; };
+		BE87FAEA2C74745D000F9041 /* Place Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87FAE92C74745D000F9041 /* Place Model.swift */; };
+		BE87FAEC2C7475D2000F9041 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE87FAEB2C7475D2000F9041 /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE87FABF2C7447B8000F9041 /* MindteckTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindteckTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE87FAC22C7447B8000F9041 /* MindteckTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindteckTestApp.swift; sourceTree = "<group>"; };
+		BE87FAC42C7447B8000F9041 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE87FAC62C7447B9000F9041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE87FAC92C7447B9000F9041 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE87FAD02C7449F2000F9041 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		BE87FAD52C746143000F9041 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		BE87FAD82C7464A8000F9041 /* ImageLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingView.swift; sourceTree = "<group>"; };
+		BE87FADA2C746501000F9041 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		BE87FADD2C747332000F9041 /* Japan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Japan.json; sourceTree = "<group>"; };
+		BE87FADE2C747332000F9041 /* India.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = India.json; sourceTree = "<group>"; };
+		BE87FADF2C747332000F9041 /* Indonesia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Indonesia.json; sourceTree = "<group>"; };
+		BE87FAE02C747332000F9041 /* New Zealand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "New Zealand.json"; sourceTree = "<group>"; };
+		BE87FAE92C74745D000F9041 /* Place Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place Model.swift"; sourceTree = "<group>"; };
+		BE87FAEB2C7475D2000F9041 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE87FABC2C7447B8000F9041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE87FAB62C7447B8000F9041 = {
+			isa = PBXGroup;
+			children = (
+				BE87FAC12C7447B8000F9041 /* MindteckTest */,
+				BE87FAC02C7447B8000F9041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE87FAC02C7447B8000F9041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE87FABF2C7447B8000F9041 /* MindteckTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE87FAC12C7447B8000F9041 /* MindteckTest */ = {
+			isa = PBXGroup;
+			children = (
+				BE87FAC22C7447B8000F9041 /* MindteckTestApp.swift */,
+				BE87FAE82C74744C000F9041 /* Model */,
+				BE87FADC2C747043000F9041 /* JsonFile */,
+				BE87FAD72C746159000F9041 /* Core */,
+				BE87FAD22C7460DE000F9041 /* Components */,
+				BE87FAC62C7447B9000F9041 /* Assets.xcassets */,
+				BE87FAC82C7447B9000F9041 /* Preview Content */,
+			);
+			path = MindteckTest;
+			sourceTree = "<group>";
+		};
+		BE87FAC82C7447B9000F9041 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE87FAC92C7447B9000F9041 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE87FAD22C7460DE000F9041 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BE87FAD02C7449F2000F9041 /* BannerView.swift */,
+				BE87FAD52C746143000F9041 /* LoadingView.swift */,
+				BE87FAD82C7464A8000F9041 /* ImageLoadingView.swift */,
+				BE87FADA2C746501000F9041 /* PlaceDetailView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BE87FAD72C746159000F9041 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BE87FAC42C7447B8000F9041 /* ContentView.swift */,
+				BE87FAEB2C7475D2000F9041 /* ViewModel.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BE87FADC2C747043000F9041 /* JsonFile */ = {
+			isa = PBXGroup;
+			children = (
+				BE87FADE2C747332000F9041 /* India.json */,
+				BE87FADF2C747332000F9041 /* Indonesia.json */,
+				BE87FADD2C747332000F9041 /* Japan.json */,
+				BE87FAE02C747332000F9041 /* New Zealand.json */,
+			);
+			path = JsonFile;
+			sourceTree = "<group>";
+		};
+		BE87FAE82C74744C000F9041 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE87FAE92C74745D000F9041 /* Place Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE87FABE2C7447B8000F9041 /* MindteckTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE87FACD2C7447B9000F9041 /* Build configuration list for PBXNativeTarget "MindteckTest" */;
+			buildPhases = (
+				BE87FABB2C7447B8000F9041 /* Sources */,
+				BE87FABC2C7447B8000F9041 /* Frameworks */,
+				BE87FABD2C7447B8000F9041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindteckTest;
+			productName = MindteckTest;
+			productReference = BE87FABF2C7447B8000F9041 /* MindteckTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE87FAB72C7447B8000F9041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BE87FABE2C7447B8000F9041 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = BE87FABA2C7447B8000F9041 /* Build configuration list for PBXProject "MindteckTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE87FAB62C7447B8000F9041;
+			productRefGroup = BE87FAC02C7447B8000F9041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE87FABE2C7447B8000F9041 /* MindteckTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE87FABD2C7447B8000F9041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE87FACA2C7447B9000F9041 /* Preview Assets.xcassets in Resources */,
+				BE87FAC72C7447B9000F9041 /* Assets.xcassets in Resources */,
+				BE87FAE32C747333000F9041 /* Indonesia.json in Resources */,
+				BE87FAE42C747333000F9041 /* New Zealand.json in Resources */,
+				BE87FAE12C747333000F9041 /* Japan.json in Resources */,
+				BE87FAE22C747333000F9041 /* India.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE87FABB2C7447B8000F9041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE87FAC52C7447B8000F9041 /* ContentView.swift in Sources */,
+				BE87FAEA2C74745D000F9041 /* Place Model.swift in Sources */,
+				BE87FADB2C746501000F9041 /* PlaceDetailView.swift in Sources */,
+				BE87FAD62C746143000F9041 /* LoadingView.swift in Sources */,
+				BE87FAC32C7447B8000F9041 /* MindteckTestApp.swift in Sources */,
+				BE87FAD12C7449F2000F9041 /* BannerView.swift in Sources */,
+				BE87FAEC2C7475D2000F9041 /* ViewModel.swift in Sources */,
+				BE87FAD92C7464A8000F9041 /* ImageLoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE87FACB2C7447B9000F9041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE87FACC2C7447B9000F9041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE87FACE2C7447B9000F9041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindteckTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nirmal.com.MindteckTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE87FACF2C7447B9000F9041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindteckTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nirmal.com.MindteckTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE87FABA2C7447B8000F9041 /* Build configuration list for PBXProject "MindteckTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE87FACB2C7447B9000F9041 /* Debug */,
+				BE87FACC2C7447B9000F9041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE87FACD2C7447B9000F9041 /* Build configuration list for PBXNativeTarget "MindteckTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE87FACE2C7447B9000F9041 /* Debug */,
+				BE87FACF2C7447B9000F9041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE87FAB72C7447B8000F9041 /* Project object */;
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Bay Of Islands",
+        "image": "Bay Of Islands"
+    },
+    {
+        "name": "Wanaka",
+        "image": "Wanaka"
+    },
+    {
+        "name": "Queenstown",
+        "image": "Queenstown"
+    },
+    {
+        "name": "Nelson",
+        "image": "Nelson"
+    },
+    {
+        "name": "Rotorua",
+        "image": "Rotorua"
+    },
+    {
+        "name": "Wellington",
+        "image": "Wellington"
+    },
+    {
+        "name": "Christchurch",
+        "image": "Christchurch"
+    },
+    {
+        "name": "Dunedin",
+        "image": "Dunedin"
+    },
+    {
+        "name": "Tauranga",
+        "image": "Tauranga"
+    },
+    {
+        "name": "Auckland",
+        "image": "Auckland"
+    }
+]
